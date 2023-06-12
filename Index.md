@@ -43,3 +43,4 @@ Je partage mes notes sur ces pages web, en espérant que ça serve à d'autres p
 
 Un grand et énorme merci à mon ami Romain pour la formation et aux nombreux pros sur youtube qui partagent tout leur savoir.
 
+DJ Atomix
