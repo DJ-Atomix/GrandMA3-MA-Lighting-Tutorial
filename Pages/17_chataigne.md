@@ -104,6 +104,20 @@ Changer les valeurs min et max à 100 dans module.json
         "Value": {"type": "Float", "ui":"slider", "min":-100, "max":100, "default":0, "mappingIndex": 0}
       }
 ```
+```JS
+     "Push Executor Button":
+    {
+      "menu":"",  
+      "callback":"pushExecutorButton",
+      "parameters":
+      {
+        "Page": {"type":"Integer","min":1,"max":9,"default":1},
+        "Executor": {"type": "Integer", "min":1, "max":490, "default":101},
+        "Offset": {"type": "Integer", "min":0, "max":490, "default":0, "description":"e.g. offset 200 and executor 2 results in 202"},
+        "Value": {"type": "Boolean", "default":1, "mappingIndex": 0}
+      }
+    },
+```
 
 et dans grandma3.js
 ```JS
@@ -118,3 +132,14 @@ function turnEncoder(encoder, multiplicator, value) {
 
 ![Alt text](images/2023-06-07_17h39_17.png)
 
+## recevoir de l'osc
+penser à mettre l'ip et osc out, avec port sur grandma
+Activer OSC in dans chataigne
+
+faire une commande
+
+Cmd('SendOSC 3 "/timecodeactif,i,'..TabSong[v]["timecode"]..'"')
+
+et dans chataigne, créer une variable dans osc in de grandma /timecodeactif
+
+et vous pouvez faire des actions avec cette valeur

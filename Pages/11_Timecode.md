@@ -30,3 +30,6 @@ Pour assigner à la main sans passer par record
 * empecher d'enregistrer par dessus une track
 
 ![Alt text](images/2023-03-23_08h53_54.png)
+
+* se déplacer dans la timeline
+cliquer sur les 2 boutons de la souris et glisser

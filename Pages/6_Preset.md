@@ -19,6 +19,8 @@
     D. Bleu : Gobo
     E. Rouge : controle
     F. Vert : Focus
+    G. Jaune : pyro
+    H. orange : dimmer
 2. disposer les fenetres pour relier les gobos à la netteté par exemple
 
 ![Alt text](images/2023-06-06_17h59_04.png)
